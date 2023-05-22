@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+.container{
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: black;
+}
+/*try nav bar*/
+.navbar{
+    height: 10%;
+    font-family:"Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 75px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: color 0.2s;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+nav ul li a:hover {
+    color:rgb(73, 89, 207)
+}
+
+/*general setup*/
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+}
+
+
+.contactus{
+    padding-top: 5%;
+    height: 100vh;
+    background-color: rgb(36, 36, 123);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+.title {
+   font-size: 60px;
+   color: white;
+   font-weight: bold;
+   
+   
+}
+
+.socials{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-radius: 5%;
+    margin-left: 10%;
+    width: 37%;
+    height: 40%;
+    background-color: rgb(160, 179, 193);
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.googleform {
+    margin-top: 5%;
+    border-radius: 5%;
+    width: 37%;
+    height: 40%;
+    float: right;
+    margin-right: 10%;
+    background-color: rgb(77, 77, 210);
+}
+
+.gofund{
+    margin-top: 5%;
+    border-radius: 5%;
+    margin-left: 10%;
+    width: 37%;
+    height: 40%;
+    background-color: rgb(77, 77, 210);
+}
+
+.contactus button {
+    
+    width: 150px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-right: 50px;
+    top: 50px;
+    left: 25px;
+    position: relative;
+    align-content: center;
+    font-weight: bold;
+    transition: transform 0.2s;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.card {
+    padding-top:5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.bottombar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #000000;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+
+p.a {
+    padding-left: 5%;
+    text-align: left;
+    font-size: 15px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-youtube {
+    color: white;
+  }
+
+  .fa-instagram {
+    color: white;
+  }
